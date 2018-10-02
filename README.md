@@ -8,7 +8,6 @@ Based on the [**previous Lab**](https://github.com/ecloudvalley/Create-a-Compreh
 ## Prerequisites
 1. The workshop’s region will be in **US east (N.Virginia)**.
 2. Build a Lex Chatbot follow [**Create a Comprehend & Translate Chatbot in Lex**](https://github.com/JellalYu/Create-a-Comprehend-Translate-Chatbot-in-Lex).
-3. Create an [**Amazon Cognito Identity Pool ID**](https://docs.aws.amazon.com/cognito/latest/developerguide/tutorial-create-identity-pool.html).
 
 
 ## Lab tutorial
@@ -67,66 +66,70 @@ Here, we will establish the Sumerian Chatbot behavior flow through the state mac
 
 ![11.PNG](/Imgs/11.PNG)
 
-2. Rename the behavior name to "Chatbot_beh".
-
-3. Rename State 1 to "Start".
+2. In State machine, rename the **behavior name** to "Chatbot_beh" and rename the **Selected State** to "Start".
 
 ![12.PNG](/Imgs/12.PNG)
 
-4. Choose **Add Action**, and then search for and add the **AWS SDK Ready** action.
+3. Choose **Add Action**, and then search for and add the **AWS SDK Ready** action.
 
 ![13.PNG](/Imgs/13.PNG)
 
-5. Add **Wait for Input** State:
+4. Click **Add State** in state machine
 
 ![14.PNG](/Imgs/14.PNG)
 
-* Rename the state to "Wait for Input".
-* Add the Key Down action.
-* Click inside the Key property text box and press the spacebar. This sets the Key Down key action to the spacebar.
+
+5. Add **Wait for input** State.
 
 ![15-2.PNG](/Imgs/15-2.PNG)
 
-6. Add **Wait for input** State.
+6. Add **Get text input** State and drag the **Html Entity** to **Entity(optional)** box.
 
 ![16-3.PNG](/Imgs/16-3.PNG)
 
-7. Add **Get text input** State.
+You'll see this when you're done:
 
 ![17-2.PNG](/Imgs/17-2.PNG)
 
-8. Add **Process with Lex** State.
+7. Add **Process with Lex** State.
+This state can input Sumerian's chat process to Lex and get a reply result
 
 ![18.PNG](/Imgs/18.PNG)
 
-9. Add **Play Response** State.
+8. Add **Play Response** State.
+This state can connect the output of Lex to polly and speak with Sumerian interfaces
 
 ![19.PNG](/Imgs/19.PNG)
 
-10. Add **Adding Transitions** State.
+9. Add **Adding Transitions** State.
+So far, there are many states, and we can simply connect them with the state machine.
 
 ![20.PNG](/Imgs/20.PNG)
 
-11. Set the **Start** and state to **Set As Initial State**.
+10. Set the **Start** and state to **Set As Initial State**.
 
 ![21.PNG](/Imgs/21.PNG)
 
-12. The final graph will look like the following.
+11. The final flow will look like the following graph.
 
 ![22.PNG](/Imgs/22.PNG)
 
+---
+### Create a TextBot Behavior for Text Input:
 
-13. Create a TextBot Behavior for Text Input:
-*  **Create Entity** and choose **</>**.
+
+In this section, create a chat input box that you can type.
+
+1.  **Create Entity** and choose **</>**.
 
 ![23.PNG](/Imgs/23.PNG)
 
 
-*  With the HTML entity selected, expand the **HTML** component, and then choose **Open in Editor**.
+2.  With the HTML entity selected, expand the **HTML** component, and then choose **Open in Editor**.
 
 ![24.PNG](/Imgs/24.PNG)
 
-* Paste the following code:
+3. Paste the following code:
 
 ```
 <style>
@@ -155,7 +158,15 @@ Now you can test your chatbot by text, Try to say hi to your Sumerian.
 
 ![25.PNG](/Imgs/25.PNG)
 
----
+### Clean Up
+To reduce the cost of the account, we recommend that you delete the following resources after the entire project is completed.
+
+* Sumerian scene
+* Lex bot
+* Cognito identity
+
 ## Conclusion
 * Congratulations! Now you can make a simple Sumerian chatbot with Amazon Lex. 
 
+## Reference
+* [**Amazon Cognito Identity Pool ID**](https://docs.aws.amazon.com/cognito/latest/developerguide/tutorial-create-identity-pool.html).
