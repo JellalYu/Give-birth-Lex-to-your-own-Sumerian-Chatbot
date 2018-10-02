@@ -11,7 +11,7 @@ Based on the [**previous Lab**](https://github.com/JellalYu/Create-a-Comprehend-
 > Build a Lex Chatbot follow [**Create a Comprehend & Translate Chatbot in Lex**](https://github.com/JellalYu/Create-a-Comprehend-Translate-Chatbot-in-Lex).
 
 
-## Lab tutorial
+## Lab Tutorial
 
 ### Create a Cognito identity pool ID
 Before we get to editing a scene in Sumerian, we need to set up an AWS Cognito identity.
@@ -51,7 +51,7 @@ Before we get to editing a scene in Sumerian, we need to set up an AWS Cognito i
 
 ![8.PNG](/Imgs/8.PNG)
 
-7. Check your Chatbot in Lex has an **Alias name** and **Publish**. 
+7. Check your Chatbot in Lex you created has an **Alias name** and **Publish**. 
 
 ![9.PNG](/Imgs/9.PNG)
 
