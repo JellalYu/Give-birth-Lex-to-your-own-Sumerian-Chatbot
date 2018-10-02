@@ -1,6 +1,6 @@
 ## Scenario
 Amazon Sumerian is an AWS service for creating 3D applications that support AR and VR services. It can be applied to the product presentation in various scenarios. You can also build a chatbot in Amazon Sumerian. 
-Based on the [**previous Lab**](https://github.com/ecloudvalley/Create-a-Comprehend-Translate-Chatbot-in-Lex), this Lab combined amazon Sumerian and Polly to create a more interactive chatbot.
+Based on the [**previous Lab**](https://github.com/JellalYu/Create-a-Comprehend-Translate-Chatbot-in-Lex), this Lab combined amazon Sumerian and Polly to create a more interactive chatbot.
 
 ![1-2.png](/Imgs/1-2.png) 
 
