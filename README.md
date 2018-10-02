@@ -6,8 +6,8 @@ Based on the [**previous Lab**](https://github.com/ecloudvalley/Create-a-Compreh
 
 
 ## Prerequisites
-1. The workshop’s region will be in **US east (N.Virginia)**.
-2. Build a Lex Chatbot follow [**Create a Comprehend & Translate Chatbot in Lex**](https://github.com/JellalYu/Create-a-Comprehend-Translate-Chatbot-in-Lex).
+> The workshop’s region will be in **US east (N.Virginia)**.
+> Build a Lex Chatbot follow [**Create a Comprehend & Translate Chatbot in Lex**](https://github.com/JellalYu/Create-a-Comprehend-Translate-Chatbot-in-Lex).
 
 
 ## Lab tutorial
