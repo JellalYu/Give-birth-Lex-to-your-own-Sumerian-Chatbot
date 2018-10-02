@@ -8,7 +8,7 @@ Based on the [**previous Lab**](https://github.com/ecloudvalley/Create-a-Compreh
 ## Prerequisites
 1. The workshop’s region will be in **US east (N.Virginia)**.
 2. Build a Lex Chatbot follow [**Create a Comprehend & Translate Chatbot in Lex**](https://github.com/JellalYu/Create-a-Comprehend-Translate-Chatbot-in-Lex).
-3. Create an Amazon Cognito Identity Pool ID.
+3. Create an [**Amazon Cognito Identity Pool ID**](https://docs.aws.amazon.com/cognito/latest/developerguide/tutorial-create-identity-pool.html).
 
 
 ## Lab tutorial
