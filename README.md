@@ -14,7 +14,7 @@ Based on the [**previous Lab**](https://github.com/ecloudvalley/Create-a-Compreh
 ## Lab tutorial
 
 ### Create a Cognito identity pool ID
-Before we get to editing a scene in Sumerian, we need to set up an AWS CloudFormation stack.
+Before we get to editing a scene in Sumerian, we need to set up an AWS Cognito identity.
 
 1.    Sign in to Amazon with your AWS account and open **Cognito**.
 2.    Type **Manage identity Pools**.
