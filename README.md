@@ -170,4 +170,5 @@ To reduce the cost of the account, we recommend that you delete the following re
 * Congratulations! Now you can make a simple Sumerian chatbot with Amazon Lex. 
 
 ## Reference
-* [**Amazon Cognito Identity Pool ID**](https://docs.aws.amazon.com/cognito/latest/developerguide/tutorial-create-identity-pool.html).
+* [**Create Cognito Identity Pool ID**](https://docs.aws.amazon.com/cognito/latest/developerguide/tutorial-create-identity-pool.html).
+* [**Cognito Role-Based Access Control**](https://docs.aws.amazon.com/cognito/latest/developerguide/role-based-access-control.html)
