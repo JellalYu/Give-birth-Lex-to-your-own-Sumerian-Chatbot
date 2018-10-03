@@ -102,7 +102,7 @@ This state can connect the output of Lex to polly and speak with Sumerian interf
 
 ![19.PNG](/Imgs/19.PNG)
 
-9. Add **Adding Transitions** State.
+9. Connect states
 So far, there are many states, and we can simply connect them with the state machine.
 
 ![20.PNG](/Imgs/20.PNG)
